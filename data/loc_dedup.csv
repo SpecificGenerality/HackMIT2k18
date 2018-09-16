@@ -1,60 +1,60 @@
 ,2017,2018,state
-0,"['[', ""'"", 'S', 'E', 'A', ',', ' ', ']']","['[', ""'"", 'S', 'E', 'A', ',', ' ', ']']",AK
-1,"['[', ']']","['[', ']']",AL
-2,"['[', ']']",,AR
-3,"['[', ']']","['[', ']']",AS
-4,"['[', ""'"", 'H', 'O', 'U', ',', ' ', 'T', 'L', 'V', 'S', 'D', 'F', 'B', ']']","['[', ""'"", 'H', 'O', 'U', ',', ' ', 'T', 'L', 'V', 'S', 'D', 'F', 'B', ']']",AZ
-5,"['[', ""'"", 'S', 'E', 'A', ',', ' ', 'M', 'P', 'W', 'R', 'B', 'J', 'O', 'N', 'Y', 'C', 'L', 'F', 'D', 'I', 'V', 'H', 'X', 'T', ']']","['[', ""'"", 'S', 'E', 'A', ',', ' ', 'W', 'M', 'P', 'R', 'B', 'J', 'O', 'N', 'Y', 'C', 'L', 'F', 'D', 'I', 'V', 'H', 'X', 'T', ']']",CA
-6,"['[', ""'"", 'S', 'E', 'A', ',', ' ', 'B', 'O', 'M', 'Y', 'P', 'V', 'R', 'C', 'H', 'J', 'U', ']']","['[', ""'"", 'S', 'E', 'A', ',', ' ', 'B', 'O', 'M', 'Y', 'P', 'V', 'R', 'C', 'H', 'J', 'U', ']']",CO
-7,"['[', ']']","['[', ']']",CT
+0,['SEA'],['SEA'],AK
+1,['SEA'],['SEA'],AL
+2,['SEA'],,AR
+3,['SEA'],['SEA'],AS
+4,"['HOU', 'TLV', 'SDF', 'BTV']","['HOU', 'TLV', 'SDF', 'BTV']",AZ
+5,"['SEA', 'MSP', 'WAS', 'PAR', 'MBJ', 'SJO', 'NYC', 'LON', 'SFO', 'MAD', 'BOM', 'BCN', 'MIL', 'MRS', 'IEV', 'DOH', 'LAX', 'LAS', 'CHI', 'BLR', 'SIN', 'SNA', 'IST']","['SEA', 'MSP', 'WAS', 'PAR', 'MBJ', 'SJO', 'NYC', 'LON', 'SFO', 'MAD', 'BOM', 'BCN', 'MIL', 'MRS', 'IEV', 'DOH', 'LAX', 'LAS', 'CHI', 'BLR', 'SIN', 'SNA', 'IST']",CA
+6,"['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']","['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']",CO
+7,"['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']","['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']",CT
 8,,,DC
 9,,,DE
-10,"['[', ""'"", 'Y', 'M', 'Q', ',', ' ', 'P', 'D', 'X', 'C', 'S', 'T', 'I', 'N', 'L', 'B', 'K', 'A', 'O', 'F', 'R', 'W', ']']",,FL
+10,"['YMQ', 'PDX', 'YYC', 'STX', 'IST', 'MNL', 'BKK', 'LAX', 'BOS', 'AMS', 'SFO', 'KIN', 'COR', 'DFW', 'POP', 'RIC']",,FL
 11,,,FM
-12,"['[', ""'"", 'C', 'H', 'I', ',', ' ', 'M', 'E', 'X', 'P', 'T', 'Y', 'O', 'D', 'K', 'G', 'W', 'S', 'N', ']']",,GA
+12,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",,GA
 13,,,GU
-14,"['[', ']']","['[', ']']",HI
-15,"['[', ']']","['[', ']']",IA
-16,"['[', ']']","['[', ']']",ID
+14,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",HI
+15,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",IA
+16,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",ID
 17,,,IL
-18,"['[', ']']","['[', ']']",IN
-19,"['[', ']']","['[', ']']",KS
-20,"['[', ']']","['[', ']']",KY
-21,"['[', ']']",,LA
-22,"['[', ""'"", 'N', 'Y', 'C', ',', ' ', 'L', 'A', 'S', 'P', 'H', 'M', 'D', 'B', 'X', 'O', 'Q', 'J', ']']","['[', ""'"", 'N', 'Y', 'C', ',', ' ', 'L', 'A', 'S', 'P', 'H', 'M', 'D', 'B', 'X', 'O', 'Q', 'J', ']']",MA
-23,"['[', ']']","['[', ']']",MD
-24,"['[', ']']","['[', ']']",ME
+18,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",IN
+19,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",KS
+20,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",KY
+21,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",,LA
+22,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",MA
+23,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",MD
+24,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",ME
 25,,,MH
-26,"['[', ']']","['[', ']']",MI
-27,"['[', ""'"", 'O', 'R', 'L', ',', ' ', 'S', 'C', ']']","['[', ""'"", 'O', 'R', 'L', ',', ' ', 'S', 'C', ']']",MN
-28,"['[', ""'"", 'L', 'A', 'X', ',', ' ', 'S', 'J', 'D', ']']",,MO
-29,"['[', ']']","['[', ']']",MP
-30,"['[', ']']","['[', ']']",MS
-31,"['[', ']']","['[', ']']",MT
-32,"['[', ""'"", 'S', 'L', 'C', ',', ' ', 'M', 'I', 'B', 'K', ']']","['[', ""'"", 'S', 'L', 'C', ',', ' ', 'M', 'I', 'B', 'K', ']']",NC
-33,"['[', ']']",,ND
-34,"['[', ""'"", 'D', 'U', 'B', ',', ' ', ']']","['[', ""'"", 'D', 'U', 'B', ',', ' ', ']']",NE
-35,"['[', ']']","['[', ']']",NH
-36,"['[', ']']","['[', ']']",NJ
-37,"['[', ']']","['[', ']']",NM
-38,"['[', ""'"", 'N', 'Y', 'C', ',', ' ', 'S', 'F', 'O', 'L', 'A', 'X', 'M', 'D', 'W', 'U', 'B', 'R', 'K', ']']","['[', ""'"", 'N', 'Y', 'C', ',', ' ', 'S', 'F', 'O', 'L', 'A', 'X', 'M', 'D', 'W', 'U', 'B', 'R', 'K', ']']",NV
-39,"['[', ']']","['[', ']']",NY
-40,"['[', ""'"", 'M', 'I', 'L', ',', ' ', 'A', 'S', ']']","['[', ""'"", 'M', 'I', 'L', ',', ' ', 'A', 'S', ']']",OH
-41,"['[', ""'"", 'D', 'E', 'N', ',', ' ', ']']","['[', ""'"", 'D', 'E', 'N', ',', ' ', ']']",OK
-42,"['[', ""'"", 'M', 'S', 'P', ',', ' ', 'Y', 'J', 'O', 'U', 'H', 'D', ']']","['[', ""'"", 'M', 'S', 'P', ',', ' ', 'Y', 'J', 'O', 'U', 'H', 'D', ']']",OR
-43,"['[', ""'"", 'C', 'H', 'I', ',', ' ', 'M', 'E', 'X', 'S', 'P', 'G', 'U', 'A', 'Y', 'R', 'T', ']']",,PA
-44,"['[', ']']",,PR
+26,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",MI
+27,"['ORL', 'SCL']","['ORL', 'SCL']",MN
+28,"['LAX', 'SJD']",,MO
+29,"['LAX', 'SJD']","['LAX', 'SJD']",MP
+30,"['LAX', 'SJD']","['LAX', 'SJD']",MS
+31,"['LAX', 'SJD']","['LAX', 'SJD']",MT
+32,"['SLC', 'MIL', 'BKK']","['SLC', 'MIL', 'BKK']",NC
+33,"['SLC', 'MIL', 'BKK']",,ND
+34,['DUB'],['DUB'],NE
+35,['DUB'],['DUB'],NH
+36,['DUB'],['DUB'],NJ
+37,['DUB'],['DUB'],NM
+38,"['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']","['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']",NV
+39,"['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']","['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']",NY
+40,"['MIL', 'LAS']","['MIL', 'LAS']",OH
+41,['DEN'],['DEN'],OK
+42,"['MSP', 'MSY', 'SJO', 'SJU', 'HYD']","['MSP', 'MSY', 'SJO', 'SJU', 'HYD']",OR
+43,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",,PA
+44,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",,PR
 45,,,PW
 46,,,RI
-47,"['[', ']']","['[', ']']",SC
-48,"['[', ']']","['[', ']']",SD
-49,"['[', ""'"", 'B', 'O', 'S', ',', ' ', 'L', 'A', 'X', 'M', 'J', 'Y', 'D', ']']",,TN
-50,"['[', ""'"", 'S', 'F', 'O', ',', ' ', 'T', 'P', 'A', 'L', 'B', 'K', 'I', 'M', 'G', 'N', 'U', 'J', 'E', 'D', 'C', 'Y', 'H', 'R', ']']","['[', ""'"", 'S', 'F', 'O', ',', ' ', 'T', 'P', 'A', 'L', 'B', 'K', 'I', 'M', 'G', 'N', 'U', 'J', 'E', 'D', 'C', 'Y', 'H', 'R', ']']",TX
-51,"['[', ""'"", 'L', 'G', 'B', ',', ' ', 'A', 'K', 'R', 'I', 'O', ']']","['[', ""'"", 'L', 'G', 'B', ',', ' ', 'A', 'K', 'R', 'I', 'O', ']']",UT
-52,"['[', ']']","['[', ']']",VA
-53,"['[', ']']",,VI
-54,"['[', ']']","['[', ']']",VT
-55,"['[', ""'"", 'D', 'T', ',', ' ', 'B', 'N', 'A', 'P', 'Q', 'C', 'E', 'R', 'I', 'O', 'J', 'K', ']']","['[', ""'"", 'D', 'T', ',', ' ', 'P', 'A', 'B', 'N', 'Q', 'C', 'E', 'R', 'I', 'O', 'J', 'K', ']']",WA
-56,"['[', ""'"", 'S', 'T', 'R', ',', ' ', ']']","['[', ""'"", 'S', 'T', 'R', ',', ' ', ']']",WI
-57,"['[', ']']","['[', ']']",WV
-58,"['[', ']']","['[', ']']",WY
+47,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']","['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",SC
+48,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']","['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",SD
+49,"['BOS', 'LAX', 'MBJ', 'MSY', 'SYD']",,TN
+50,"['SFO', 'TPA', 'LOS', 'BKK', 'LIM', 'SGN', 'UIO', 'JED', 'ANC', 'YTO', 'SJU', 'HNL', 'BJS', 'JNB', 'DEN', 'SEA', 'FRA', 'SJO', 'CUN', 'MAA']","['SFO', 'TPA', 'LOS', 'BKK', 'LIM', 'SGN', 'UIO', 'JED', 'ANC', 'YTO', 'SJU', 'HNL', 'BJS', 'JNB', 'DEN', 'SEA', 'FRA', 'SJO', 'CUN', 'MAA']",TX
+51,"['LGB', 'AKL', 'BKK', 'RIO']","['LGB', 'AKL', 'BKK', 'RIO']",UT
+52,"['LGB', 'AKL', 'BKK', 'RIO']","['LGB', 'AKL', 'BKK', 'RIO']",VA
+53,"['LGB', 'AKL', 'BKK', 'RIO']",,VI
+54,"['LGB', 'AKL', 'BKK', 'RIO']","['LGB', 'AKL', 'BKK', 'RIO']",VT
+55,"['DTT', 'BNA', 'TPA', 'ABQ', 'CEB', 'RIO', 'EBB', 'JKT']","['DTT', 'BNA', 'TPA', 'ABQ', 'CEB', 'RIO', 'EBB', 'JKT']",WA
+56,['STR'],['STR'],WI
+57,['STR'],['STR'],WV
+58,['STR'],['STR'],WY
