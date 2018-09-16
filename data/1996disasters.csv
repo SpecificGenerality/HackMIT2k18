@@ -1,0 +1,63 @@
+CA,Fire,4
+TX,Fire,50
+NY,Severe Storm(s),16
+NY,Flood,41
+NY,Snow,19
+MT,Severe Storm(s),20
+AL,Severe Storm(s),17
+MD,Hurricane,3
+MD,Flood,6
+MD,Snow,24
+DE,Snow,3
+ID,Severe Storm(s),10
+NH,Flood,12
+WV,Fire,10
+WV,Severe Storm(s),10
+WV,Flood,45
+WV,Snow,55
+NE,Severe Storm(s),4
+ND,Severe Storm(s),33
+CT,Snow,8
+SD,Snow,26
+NC,Hurricane,75
+NC,Snow,104
+VT,Flood,12
+MA,Flood,10
+MA,Snow,14
+ME,Severe Storm(s),14
+ME,Flood,3
+HI,Severe Storm(s),1
+HI,Flood,1
+MN,Flood,26
+MN,Snow,4
+FL,Severe Storm(s),16
+NJ,Severe Storm(s),5
+NJ,Snow,21
+OR,Severe Storm(s),10
+OR,Flood,30
+WI,Flood,2
+IN,Severe Storm(s),29
+IN,Flood,56
+IA,Severe Storm(s),31
+OH,Flood,29
+WA,Severe Storm(s),19
+WA,Flood,24
+AK,Fire,1
+AR,Severe Storm(s),8
+PA,Flood,89
+PA,Snow,51
+KY,Severe Storm(s),4
+KY,Snow,120
+DC,Severe Storm(s),1
+VA,Hurricane,88
+VA,Flood,27
+VA,Snow,136
+VI,Hurricane,3
+IL,Severe Storm(s),44
+OK,Fire,7
+MI,Severe Storm(s),7
+PR,Other,1
+PR,Hurricane,71
+RI,Other,2
+RI,Snow,5
+SC,Flood,5

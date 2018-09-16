@@ -1,0 +1,44 @@
+WY,Fire,1
+WY,Flood,4
+TX,Severe Storm(s),135
+TX,Fire,1
+ID,Severe Storm(s),5
+ID,Fire,6
+NH,Severe Storm(s),3
+WV,Severe Storm(s),47
+WV,Flood,20
+LA,Flood,7
+AR,Severe Storm(s),29
+GA,Severe Ice Storm,16
+CT,Severe Storm(s),4
+SD,Severe Storm(s),15
+VT,Severe Storm(s),12
+MA,Severe Storm(s),10
+CA,Fire,12
+CA,Flood,1
+MS,Tornado,1
+ME,Snow,4
+GU,Typhoon,1
+OR,Fire,6
+NJ,Severe Storm(s),4
+KS,Severe Storm(s),44
+WA,Severe Storm(s),6
+WA,Fire,41
+AK,Fire,2
+AK,Coastal Storm,1
+NE,Severe Storm(s),28
+KY,Severe Storm(s),34
+KY,Flood,88
+KY,Snow,41
+OK,Severe Storm(s),63
+OK,Fire,2
+OK,Severe Ice Storm,21
+MP,Typhoon,3
+SC,Severe Storm(s),47
+SC,Flood,36
+MO,Severe Storm(s),76
+CO,Flood,15
+AZ,Fire,2
+IA,Severe Storm(s),19
+RI,Severe Storm(s),5
+TN,Severe Ice Storm,45

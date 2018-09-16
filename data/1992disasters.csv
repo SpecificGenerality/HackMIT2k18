@@ -1,0 +1,41 @@
+ME,Flood,10
+DE,Flood,2
+PR,Flood,35
+CT,Flood,3
+LA,Hurricane,36
+NY,Flood,5
+NE,Flood,8
+GA,Tornado,14
+NM,Flood,1
+SD,Severe Storm(s),8
+VT,Flood,5
+IN,Severe Storm(s),15
+IN,Flood,6
+CA,Fire,3
+CA,Flood,5
+CA,Earthquake,3
+HI,Hurricane,6
+MS,Tornado,26
+MN,Severe Storm(s),10
+FL,Severe Storm(s),7
+FL,Flood,4
+FL,Hurricane,4
+NJ,Severe Storm(s),5
+NJ,Flood,12
+GU,Typhoon,1
+MH,Typhoon,11
+MH,Flood,6
+MA,Coastal Storm,9
+IA,Flood,9
+OH,Severe Storm(s),24
+FM,Typhoon,3
+FM,Drought,2
+AR,Severe Storm(s),5
+WI,Tornado,2
+WI,Flood,10
+VA,Flood,28
+TX,Tornado,4
+TX,Severe Storm(s),26
+TX,Flood,3
+IL,Flood,1
+RI,Toxic Substances,2
