@@ -25,6 +25,10 @@ scl = [[0.0, 'rgb(242,240,247)'],[0.2, 'rgb(218,218,235)'],[0.4, 'rgb(188,189,22
 titleMap = {'Earthquake': 'Earthquakes', 'Fire': 'Forest Fires', 'Hurricane': 'Hurricanes', 
             'Flood': 'Floods', 'Poverty': 'Poverty %', 'Snow': 'Extreme Snow', 'Tornado': 'Tornadoes'}
 
+popularFlights = pd.read_csv('data/loc_dedup.csv')
+# Drop the empty first column
+popularFlights = popularFlights.drop(popularFlights.columns[0], axis=1)
+
 def plotMap(df, year, disaster):
   return dict(
     data = [dict(
@@ -51,6 +55,17 @@ def plotMap(df, year, disaster):
         lakecolor = 'rgb(255, 255, 255)'
       ),
     )
+  )
+
+def generate_table(dataframe):
+  return html.Table(
+    # Header
+    [html.Tr([html.Th(col) for col in dataframe.columns])] +
+
+    # Body
+    [html.Tr([
+      html.Td(dataframe.iloc[i][col]) for col in dataframe.columns
+    ]) for i in range(len(dataframe))]
   )
 
 app.layout = html.Div(children=[
@@ -178,7 +193,10 @@ app.layout = html.Div(children=[
           )
         )
       )], className="six columns"),
-      ])
+      ]),
+
+      html.H3('Popular Flights (from Amadeus)'),
+      generate_table(popularFlights)
 ])
 
 @app.callback(Output('state-choropleth', 'figure'),
