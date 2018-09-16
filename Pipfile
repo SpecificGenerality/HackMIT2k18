@@ -1,0 +1,17 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+dash-html-components = "==0.12.0"
+dash-core-components = "==0.28.0"
+dash = "==0.26.5"
+pandas = "*"
