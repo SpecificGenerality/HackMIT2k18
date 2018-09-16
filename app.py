@@ -6,17 +6,24 @@ import pandas as pd
 
 app = dash.Dash()
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
+app.title = 'HackMIT 2018'
 
 df = pd.read_csv('data/disasters.csv')
 df['text'] = df['state']
+poverty = pd.read_csv('data/poverty.csv')
+poverty['text'] = poverty['state']
 
 for col in df.columns:
   df[col] = df[col].astype(str)
 
+for col in poverty.columns:
+  poverty[col] = poverty[col].astype(str)
+
 scl = [[0.0, 'rgb(242,240,247)'],[0.2, 'rgb(218,218,235)'],[0.4, 'rgb(188,189,220)'],\
       [0.6, 'rgb(158,154,200)'],[0.8, 'rgb(117,107,177)'],[1.0, 'rgb(84,39,143)']]
 
-titleMap = {'Earthquake': 'Earthquakes', 'Fire': 'Forest Fires', 'Hurricane': 'Hurricanes', 'Flood': 'Floods', 'Snow': 'Extreme Snow'}
+titleMap = {'Earthquake': 'Earthquakes', 'Fire': 'Forest Fires', 'Hurricane': 'Hurricanes', 
+            'Flood': 'Floods', 'Poverty': 'Poverty %', 'Snow': 'Extreme Snow', 'Tornado': 'Tornadoes'}
 
 def plotMap(df, year, disaster):
   return dict(
@@ -77,7 +84,9 @@ app.layout = html.Div(children=[
         {'label': 'Flood', 'value': 'Flood'},
         {'label': 'Hurricanes', 'value': 'Hurricane'},
         {'label': 'Forest Fires', 'value': 'Fire'},
-        {'label': 'Snow', 'value': 'Snow'}
+        {'label': 'Poverty', 'value': 'Poverty'},
+        {'label': 'Snow', 'value': 'Snow'},
+        {'label': 'Tornadoes', 'value': 'Tornado'}
       ],
       value='Earthquake'
     ),
@@ -134,7 +143,9 @@ app.layout = html.Div(children=[
           {'label': 'Flood', 'value': 'Flood'},
           {'label': 'Hurricanes', 'value': 'Hurricane'},
           {'label': 'Forest Fires', 'value': 'Fire'},
-          {'label': 'Snow', 'value': 'Snow'}
+          {'label': 'Poverty', 'value': 'Poverty'},
+          {'label': 'Snow', 'value': 'Snow'},
+          {'label': 'Tornadoes', 'value': 'Tornado'}
         ],
         value='Earthquake'
       ),
@@ -174,12 +185,17 @@ app.layout = html.Div(children=[
               [Input('disaster-dropdown', 'value'), Input('slider-updatemode', 'value')])
 def update_graph(disaster, year):
   dff = df[df['fyDeclared'] == str(year)]
+  if disaster == 'Poverty':
+    dff = poverty[poverty['fyDeclared'] == str(year)]
+    print dff
   return plotMap(dff, year, disaster)
 
 @app.callback(Output('state-choropleth2', 'figure'),
               [Input('disaster-dropdown2', 'value'), Input('slider-updatemode2', 'value')])
 def update_graph(disaster, year):
   dff = df[df['fyDeclared'] == str(year)]
+  if disaster == 'Poverty':
+    dff = poverty[poverty['fyDeclared'] == str(year)]
   return plotMap(dff, year, disaster)
 
 if __name__ == '__main__':
