@@ -35,7 +35,7 @@ def plotMap(df, year, disaster):
       colorbar = dict(title = "Earthquakes")
     )],
     layout = dict(
-      title = '"{}" Earthquakes by State'.format(year),
+      title = '"{} {}" by State'.format(year, disaster),
       geo = dict(
         scope='usa',
         projection=dict( type='albers usa' ),
@@ -68,12 +68,12 @@ app.layout = html.Div(children=[
   dcc.Dropdown(
     id='disaster-dropdown',
     options=[
-      {'label': 'Earthquakes', 'value': 'earthquake'},
-      {'label': 'Flood', 'value': 'flood'},
-      {'label': 'Hurricanes', 'value': 'hurricane'},
-      {'label': 'Forest Fires', 'value': 'fire'},
+      {'label': 'Earthquakes', 'value': 'Earthquakes'},
+      {'label': 'Flood', 'value': 'Floods'},
+      {'label': 'Hurricanes', 'value': 'Hurricanes'},
+      {'label': 'Forest Fires', 'value': 'Fires'},
     ],
-    value='earthquake'
+    value='Earthquakes'
   ),
 
   dcc.Graph(
@@ -84,7 +84,7 @@ app.layout = html.Div(children=[
         colorscale = scl,
         autocolorscale = True,
         locations = df['state'],
-        z = df['earthquake'].astype(float),
+        z = df['Earthquakes'].astype(float),
         locationmode = 'USA-states',
         text = df['text'],
         marker = dict(
