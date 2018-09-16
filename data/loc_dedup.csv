@@ -1,60 +1,60 @@
 ,2017,2018,state
 0, SEA, SEA,AK
-1, SEA, SEA,AL
-2, SEA,,AR
-3, SEA, SEA,AS
+1,no data,no data,AL
+2,no data,no data,AR
+3,no data,no data,AS
 4," HOU, TLV, SDF, BTV"," HOU, TLV, SDF, BTV",AZ
 5," SEA, MSP, WAS, PAR, MBJ, SJO, NYC, LON, SFO, MAD, BOM, BCN, MIL, MRS, IEV, DOH, LAX, LAS, CHI, BLR, SIN, SNA, IST"," SEA, MSP, WAS, PAR, MBJ, SJO, NYC, LON, SFO, MAD, BOM, BCN, MIL, MRS, IEV, DOH, LAX, LAS, CHI, BLR, SIN, SNA, IST",CA
 6," SEA, BOS, MSY, PVR, CHS, MBJ, AUA"," SEA, BOS, MSY, PVR, CHS, MBJ, AUA",CO
-7," SEA, BOS, MSY, PVR, CHS, MBJ, AUA"," SEA, BOS, MSY, PVR, CHS, MBJ, AUA",CT
-8,,,DC
-9,,,DE
-10," YMQ, PDX, YYC, STX, IST, MNL, BKK, LAX, BOS, AMS, SFO, KIN, COR, DFW, POP, RIC",,FL
-11,,,FM
-12," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",,GA
-13,,,GU
-14," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",HI
-15," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",IA
-16," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",ID
-17,,,IL
-18," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",IN
-19," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",KS
-20," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",KY
-21," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",,LA
+7,no data,no data,CT
+8,no data,no data,DC
+9,no data,no data,DE
+10," YMQ, PDX, YYC, STX, IST, MNL, BKK, LAX, BOS, AMS, SFO, KIN, COR, DFW, POP, RIC",no data,FL
+11,no data,no data,FM
+12," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",no data,GA
+13,no data,no data,GU
+14,no data,no data,HI
+15,no data,no data,IA
+16,no data,no data,ID
+17,no data,no data,IL
+18,no data,no data,IN
+19,no data,no data,KS
+20,no data,no data,KY
+21,no data,no data,LA
 22," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",MA
-23," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",MD
-24," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",ME
-25,,,MH
-26," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",MI
+23,no data,no data,MD
+24,no data,no data,ME
+25,no data,no data,MH
+26,no data,no data,MI
 27," ORL, SCL"," ORL, SCL",MN
-28," LAX, SJD",,MO
-29," LAX, SJD"," LAX, SJD",MP
-30," LAX, SJD"," LAX, SJD",MS
-31," LAX, SJD"," LAX, SJD",MT
+28," LAX, SJD",no data,MO
+29,no data,no data,MP
+30,no data,no data,MS
+31,no data,no data,MT
 32," SLC, MIL, BKK"," SLC, MIL, BKK",NC
-33," SLC, MIL, BKK",,ND
+33,no data,no data,ND
 34, DUB, DUB,NE
-35, DUB, DUB,NH
-36, DUB, DUB,NJ
-37, DUB, DUB,NM
+35,no data,no data,NH
+36,no data,no data,NJ
+37,no data,no data,NM
 38," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL"," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL",NV
-39," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL"," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL",NY
+39,no data,no data,NY
 40," MIL, LAS"," MIL, LAS",OH
 41, DEN, DEN,OK
 42," MSP, MSY, SJO, SJU, HYD"," MSP, MSY, SJO, SJU, HYD",OR
-43," CHI, MEX, MSP, GUA, MYR, STX",,PA
-44," CHI, MEX, MSP, GUA, MYR, STX",,PR
-45,,,PW
-46,,,RI
-47," CHI, MEX, MSP, GUA, MYR, STX"," CHI, MEX, MSP, GUA, MYR, STX",SC
-48," CHI, MEX, MSP, GUA, MYR, STX"," CHI, MEX, MSP, GUA, MYR, STX",SD
-49," BOS, LAX, MBJ, MSY, SYD",,TN
+43," CHI, MEX, MSP, GUA, MYR, STX",no data,PA
+44,no data,no data,PR
+45,no data,no data,PW
+46,no data,no data,RI
+47,no data,no data,SC
+48,no data,no data,SD
+49," BOS, LAX, MBJ, MSY, SYD",no data,TN
 50," SFO, TPA, LOS, BKK, LIM, SGN, UIO, JED, ANC, YTO, SJU, HNL, BJS, JNB, DEN, SEA, FRA, SJO, CUN, MAA"," SFO, TPA, LOS, BKK, LIM, SGN, UIO, JED, ANC, YTO, SJU, HNL, BJS, JNB, DEN, SEA, FRA, SJO, CUN, MAA",TX
 51," LGB, AKL, BKK, RIO"," LGB, AKL, BKK, RIO",UT
-52," LGB, AKL, BKK, RIO"," LGB, AKL, BKK, RIO",VA
-53," LGB, AKL, BKK, RIO",,VI
-54," LGB, AKL, BKK, RIO"," LGB, AKL, BKK, RIO",VT
+52,no data,no data,VA
+53,no data,no data,VI
+54,no data,no data,VT
 55," DTT, BNA, TPA, ABQ, CEB, RIO, EBB, JKT"," DTT, BNA, TPA, ABQ, CEB, RIO, EBB, JKT",WA
 56, STR, STR,WI
-57, STR, STR,WV
-58, STR, STR,WY
+57,no data,no data,WV
+58,no data,no data,WY

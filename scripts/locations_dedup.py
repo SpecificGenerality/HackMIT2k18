@@ -23,16 +23,19 @@ with open(data_path, 'r') as csv_file:
                         if len(airport) <= 2:
                             airports.remove(airport)
                         airport.strip()
-                for airport in airports:
-                    if airport not in newlist:
-                        newlist.append(airport)
-                ins = ''
-                for item in newlist:
-                    ins = ins + ', ' + item
-                ins = ins[1:len(ins)]
-                row['2017'] = ins
+
+                    for airport in airports:
+                        if airport not in newlist:
+                            newlist.append(airport)
+                    ins = ''
+                    for item in newlist:
+                        ins = ins + ', ' + item
+                    ins = ins[1:len(ins)]
+                    row['2017'] = ins
+                else:
+                    row['2017'] = 'no data'
             except TypeError as ex:
-                continue
+                row['2017'] = 'no data'
         if not row['2018']:
             continue
         else:
@@ -44,16 +47,18 @@ with open(data_path, 'r') as csv_file:
                         if len(airport) <= 2:
                             airports.remove(airport)
                         airport.strip()
-                for airport in airports:
-                    if airport not in newlist:
-                        newlist.append(airport)
-                ins = ''
-                for item in newlist:
-                    ins = ins + ', ' + item
-                ins = ins[1:len(ins)]
-                row['2018'] = ins
+                    for airport in airports:
+                        if airport not in newlist:
+                            newlist.append(airport)
+                    ins = ''
+                    for item in newlist:
+                        ins = ins + ', ' + item
+                    ins = ins[1:len(ins)]
+                    row['2018'] = ins
+                else:
+                    row['2018'] = 'no data'
             except TypeError as ex:
-                continue
+                row['2018'] = 'no data'
 
     df = pd.DataFrame(csv_reader)
     dir_out = os.path.join(goal_dir, "loc_dedup.csv")
