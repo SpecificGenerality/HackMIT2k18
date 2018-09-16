@@ -187,7 +187,6 @@ def update_graph(disaster, year):
   dff = df[df['fyDeclared'] == str(year)]
   if disaster == 'Poverty':
     dff = poverty[poverty['fyDeclared'] == str(year)]
-    print dff
   return plotMap(dff, year, disaster)
 
 @app.callback(Output('state-choropleth2', 'figure'),
