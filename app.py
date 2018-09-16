@@ -7,8 +7,7 @@ import pandas as pd
 app = dash.Dash()
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
-# Change Temp.csv to DisasterDeclarationsSummaries.csv when ready
-df = pd.read_csv('data/Temp.csv')
+df = pd.read_csv('data/disasters.csv')
 df['text'] = df['state']
 
 for col in df.columns:
@@ -16,6 +15,8 @@ for col in df.columns:
 
 scl = [[0.0, 'rgb(242,240,247)'],[0.2, 'rgb(218,218,235)'],[0.4, 'rgb(188,189,220)'],\
       [0.6, 'rgb(158,154,200)'],[0.8, 'rgb(117,107,177)'],[1.0, 'rgb(84,39,143)']]
+
+titleMap = {'Earthquake': 'Earthquakes', 'Fire': 'Forest Fires', 'Hurricane': 'Hurricanes', 'Flood': 'Floods', 'Snow': 'Extreme Snow'}
 
 def plotMap(df, year, disaster):
   return dict(
@@ -32,10 +33,10 @@ def plotMap(df, year, disaster):
           color = 'rgb(255,255,255)',
           width = 2
         )),
-      colorbar = dict(title = "Earthquakes")
+      colorbar = dict(title = titleMap[disaster])
     )],
     layout = dict(
-      title = '"{} {}" by State'.format(year, disaster),
+      title = '{} {} by State'.format(year, titleMap[disaster]),
       geo = dict(
         scope='usa',
         projection=dict( type='albers usa' ),
@@ -52,28 +53,31 @@ app.layout = html.Div(children=[
     Choose the year and disaster type
   '''),
 
-  dcc.Slider(
-    id='slider-updatemode',
-    marks={i: '{}'.format(i) for i in range(1990, 2018, 1)},
-    min=1990,
-    max=2018,
-    step=1,
-    value=2010,
-    updatemode='drag'
-  ),
+  html.Div([
+    dcc.Slider(
+      id='slider-updatemode',
+      marks={i: '{}'.format(i) for i in range(1990, 2018, 1)},
+      min=1990,
+      max=2018,
+      step=1,
+      value=2010,
+      updatemode='drag'
+    ),
+  ], style={'margin':15}),
 
-  html.Div(id='updatemode-output-container', style={'margin-top': 20}),
+  html.Div(id='updatemode-output-container', style={'margin-top': 30}),
 
   # Dropdown values correspond to the CSV column name
   dcc.Dropdown(
     id='disaster-dropdown',
     options=[
-      {'label': 'Earthquakes', 'value': 'Earthquakes'},
-      {'label': 'Flood', 'value': 'Floods'},
-      {'label': 'Hurricanes', 'value': 'Hurricanes'},
-      {'label': 'Forest Fires', 'value': 'Fires'},
+      {'label': 'Earthquakes', 'value': 'Earthquake'},
+      {'label': 'Flood', 'value': 'Flood'},
+      {'label': 'Hurricanes', 'value': 'Hurricane'},
+      {'label': 'Forest Fires', 'value': 'Fire'},
+      {'label': 'Snow', 'value': 'Snow'}
     ],
-    value='Earthquakes'
+    value='Earthquake'
   ),
 
   dcc.Graph(
@@ -84,7 +88,7 @@ app.layout = html.Div(children=[
         colorscale = scl,
         autocolorscale = True,
         locations = df['state'],
-        z = df['Earthquakes'].astype(float),
+        z = df['Earthquake'].astype(float),
         locationmode = 'USA-states',
         text = df['text'],
         marker = dict(
@@ -92,7 +96,7 @@ app.layout = html.Div(children=[
             color = 'rgb(255,255,255)',
             width = 2
           )),
-        colorbar = dict(title = "Earthquakes")
+        colorbar = dict(title = "Earthquake")
       )],
       layout = dict(
         title = '2010 Earthquakes by State',
