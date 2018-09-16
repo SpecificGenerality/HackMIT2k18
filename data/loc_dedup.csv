@@ -1,60 +1,60 @@
 ,2017,2018,state
-0,['SEA'],['SEA'],AK
-1,['SEA'],['SEA'],AL
-2,['SEA'],,AR
-3,['SEA'],['SEA'],AS
-4,"['HOU', 'TLV', 'SDF', 'BTV']","['HOU', 'TLV', 'SDF', 'BTV']",AZ
-5,"['SEA', 'MSP', 'WAS', 'PAR', 'MBJ', 'SJO', 'NYC', 'LON', 'SFO', 'MAD', 'BOM', 'BCN', 'MIL', 'MRS', 'IEV', 'DOH', 'LAX', 'LAS', 'CHI', 'BLR', 'SIN', 'SNA', 'IST']","['SEA', 'MSP', 'WAS', 'PAR', 'MBJ', 'SJO', 'NYC', 'LON', 'SFO', 'MAD', 'BOM', 'BCN', 'MIL', 'MRS', 'IEV', 'DOH', 'LAX', 'LAS', 'CHI', 'BLR', 'SIN', 'SNA', 'IST']",CA
-6,"['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']","['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']",CO
-7,"['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']","['SEA', 'BOS', 'MSY', 'PVR', 'CHS', 'MBJ', 'AUA']",CT
+0, SEA, SEA,AK
+1, SEA, SEA,AL
+2, SEA,,AR
+3, SEA, SEA,AS
+4," HOU, TLV, SDF, BTV"," HOU, TLV, SDF, BTV",AZ
+5," SEA, MSP, WAS, PAR, MBJ, SJO, NYC, LON, SFO, MAD, BOM, BCN, MIL, MRS, IEV, DOH, LAX, LAS, CHI, BLR, SIN, SNA, IST"," SEA, MSP, WAS, PAR, MBJ, SJO, NYC, LON, SFO, MAD, BOM, BCN, MIL, MRS, IEV, DOH, LAX, LAS, CHI, BLR, SIN, SNA, IST",CA
+6," SEA, BOS, MSY, PVR, CHS, MBJ, AUA"," SEA, BOS, MSY, PVR, CHS, MBJ, AUA",CO
+7," SEA, BOS, MSY, PVR, CHS, MBJ, AUA"," SEA, BOS, MSY, PVR, CHS, MBJ, AUA",CT
 8,,,DC
 9,,,DE
-10,"['YMQ', 'PDX', 'YYC', 'STX', 'IST', 'MNL', 'BKK', 'LAX', 'BOS', 'AMS', 'SFO', 'KIN', 'COR', 'DFW', 'POP', 'RIC']",,FL
+10," YMQ, PDX, YYC, STX, IST, MNL, BKK, LAX, BOS, AMS, SFO, KIN, COR, DFW, POP, RIC",,FL
 11,,,FM
-12,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",,GA
+12," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",,GA
 13,,,GU
-14,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",HI
-15,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",IA
-16,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",ID
+14," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",HI
+15," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",IA
+16," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",ID
 17,,,IL
-18,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",IN
-19,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",KS
-20,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']","['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",KY
-21,"['CHI', 'MEX', 'PHX', 'TYO', 'HYD', 'HKG', 'MOW', 'SIN', 'KTM']",,LA
-22,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",MA
-23,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",MD
-24,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",ME
+18," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",IN
+19," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",KS
+20," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM"," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",KY
+21," CHI, MEX, PHX, TYO, HYD, HKG, MOW, SIN, KTM",,LA
+22," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",MA
+23," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",MD
+24," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",ME
 25,,,MH
-26,"['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']","['NYC', 'LAS', 'PHL', 'MAD', 'BCN', 'PHX', 'SAO', 'SDQ', 'PDX', 'BJS']",MI
-27,"['ORL', 'SCL']","['ORL', 'SCL']",MN
-28,"['LAX', 'SJD']",,MO
-29,"['LAX', 'SJD']","['LAX', 'SJD']",MP
-30,"['LAX', 'SJD']","['LAX', 'SJD']",MS
-31,"['LAX', 'SJD']","['LAX', 'SJD']",MT
-32,"['SLC', 'MIL', 'BKK']","['SLC', 'MIL', 'BKK']",NC
-33,"['SLC', 'MIL', 'BKK']",,ND
-34,['DUB'],['DUB'],NE
-35,['DUB'],['DUB'],NH
-36,['DUB'],['DUB'],NJ
-37,['DUB'],['DUB'],NM
-38,"['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']","['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']",NV
-39,"['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']","['NYC', 'SFO', 'LAX', 'MAD', 'WAS', 'CUN', 'BCN', 'ROM', 'AKL']",NY
-40,"['MIL', 'LAS']","['MIL', 'LAS']",OH
-41,['DEN'],['DEN'],OK
-42,"['MSP', 'MSY', 'SJO', 'SJU', 'HYD']","['MSP', 'MSY', 'SJO', 'SJU', 'HYD']",OR
-43,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",,PA
-44,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",,PR
+26," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS"," NYC, LAS, PHL, MAD, BCN, PHX, SAO, SDQ, PDX, BJS",MI
+27," ORL, SCL"," ORL, SCL",MN
+28," LAX, SJD",,MO
+29," LAX, SJD"," LAX, SJD",MP
+30," LAX, SJD"," LAX, SJD",MS
+31," LAX, SJD"," LAX, SJD",MT
+32," SLC, MIL, BKK"," SLC, MIL, BKK",NC
+33," SLC, MIL, BKK",,ND
+34, DUB, DUB,NE
+35, DUB, DUB,NH
+36, DUB, DUB,NJ
+37, DUB, DUB,NM
+38," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL"," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL",NV
+39," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL"," NYC, SFO, LAX, MAD, WAS, CUN, BCN, ROM, AKL",NY
+40," MIL, LAS"," MIL, LAS",OH
+41, DEN, DEN,OK
+42," MSP, MSY, SJO, SJU, HYD"," MSP, MSY, SJO, SJU, HYD",OR
+43," CHI, MEX, MSP, GUA, MYR, STX",,PA
+44," CHI, MEX, MSP, GUA, MYR, STX",,PR
 45,,,PW
 46,,,RI
-47,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']","['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",SC
-48,"['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']","['CHI', 'MEX', 'MSP', 'GUA', 'MYR', 'STX']",SD
-49,"['BOS', 'LAX', 'MBJ', 'MSY', 'SYD']",,TN
-50,"['SFO', 'TPA', 'LOS', 'BKK', 'LIM', 'SGN', 'UIO', 'JED', 'ANC', 'YTO', 'SJU', 'HNL', 'BJS', 'JNB', 'DEN', 'SEA', 'FRA', 'SJO', 'CUN', 'MAA']","['SFO', 'TPA', 'LOS', 'BKK', 'LIM', 'SGN', 'UIO', 'JED', 'ANC', 'YTO', 'SJU', 'HNL', 'BJS', 'JNB', 'DEN', 'SEA', 'FRA', 'SJO', 'CUN', 'MAA']",TX
-51,"['LGB', 'AKL', 'BKK', 'RIO']","['LGB', 'AKL', 'BKK', 'RIO']",UT
-52,"['LGB', 'AKL', 'BKK', 'RIO']","['LGB', 'AKL', 'BKK', 'RIO']",VA
-53,"['LGB', 'AKL', 'BKK', 'RIO']",,VI
-54,"['LGB', 'AKL', 'BKK', 'RIO']","['LGB', 'AKL', 'BKK', 'RIO']",VT
-55,"['DTT', 'BNA', 'TPA', 'ABQ', 'CEB', 'RIO', 'EBB', 'JKT']","['DTT', 'BNA', 'TPA', 'ABQ', 'CEB', 'RIO', 'EBB', 'JKT']",WA
-56,['STR'],['STR'],WI
-57,['STR'],['STR'],WV
-58,['STR'],['STR'],WY
+47," CHI, MEX, MSP, GUA, MYR, STX"," CHI, MEX, MSP, GUA, MYR, STX",SC
+48," CHI, MEX, MSP, GUA, MYR, STX"," CHI, MEX, MSP, GUA, MYR, STX",SD
+49," BOS, LAX, MBJ, MSY, SYD",,TN
+50," SFO, TPA, LOS, BKK, LIM, SGN, UIO, JED, ANC, YTO, SJU, HNL, BJS, JNB, DEN, SEA, FRA, SJO, CUN, MAA"," SFO, TPA, LOS, BKK, LIM, SGN, UIO, JED, ANC, YTO, SJU, HNL, BJS, JNB, DEN, SEA, FRA, SJO, CUN, MAA",TX
+51," LGB, AKL, BKK, RIO"," LGB, AKL, BKK, RIO",UT
+52," LGB, AKL, BKK, RIO"," LGB, AKL, BKK, RIO",VA
+53," LGB, AKL, BKK, RIO",,VI
+54," LGB, AKL, BKK, RIO"," LGB, AKL, BKK, RIO",VT
+55," DTT, BNA, TPA, ABQ, CEB, RIO, EBB, JKT"," DTT, BNA, TPA, ABQ, CEB, RIO, EBB, JKT",WA
+56, STR, STR,WI
+57, STR, STR,WV
+58, STR, STR,WY

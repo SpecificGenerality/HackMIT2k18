@@ -26,8 +26,11 @@ with open(data_path, 'r') as csv_file:
                 for airport in airports:
                     if airport not in newlist:
                         newlist.append(airport)
-                print(newlist)
-                row['2017'] = newlist
+                ins = ''
+                for item in newlist:
+                    ins = ins + ', ' + item
+                ins = ins[1:len(ins)]
+                row['2017'] = ins
             except TypeError as ex:
                 continue
         if not row['2018']:
@@ -44,8 +47,11 @@ with open(data_path, 'r') as csv_file:
                 for airport in airports:
                     if airport not in newlist:
                         newlist.append(airport)
-                print(newlist)
-                row['2018'] = newlist
+                ins = ''
+                for item in newlist:
+                    ins = ins + ', ' + item
+                ins = ins[1:len(ins)]
+                row['2018'] = ins
             except TypeError as ex:
                 continue
 
