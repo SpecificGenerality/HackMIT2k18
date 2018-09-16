@@ -1,98 +1,42 @@
-MT,Hurricane,56
-AL,Hurricane,141
-TX,Fire,2
-TX,Hurricane,763
-PR,Severe Storm(s),17
-NH,Severe Storm(s),6
-NH,Hurricane,10
-NH,Snow,19
-NE,Severe Storm(s),11
-NE,Hurricane,93
-LA,Severe Storm(s),5
-LA,Hurricane,255
-AS,Typhoon,5
-CT,Severe Storm(s),5
-CT,Hurricane,8
-CT,Snow,8
-SD,Severe Storm(s),33
-SD,Fire,3
-SD,Coastal Storm,66
-IN,Tornado,2
-IN,Severe Storm(s),87
-IN,Hurricane,92
-IN,Snow,50
-CA,Severe Storm(s),15
-CA,Fire,9
-CA,Hurricane,58
-HI,Severe Storm(s),1
-HI,Fire,4
-WY,Tornado,1
-MN,Hurricane,87
-NJ,Severe Storm(s),9
-NJ,Hurricane,21
-UT,Fire,1
-UT,Severe Storm(s),2
-UT,Flood,9
-UT,Coastal Storm,29
-WA,Fire,3
-WA,Coastal Storm,39
-OK,Fire,7
-OK,Hurricane,77
-AR,Hurricane,75
-WI,Hurricane,73
-KY,Severe Storm(s),2
-KY,Hurricane,120
-KY,Snow,30
-DC,Hurricane,1
-CO,Fire,2
-CO,Coastal Storm,64
-ID,Flood,2
-ID,Hurricane,44
-RI,Hurricane,5
-RI,Snow,5
-NY,Severe Storm(s),21
-NY,Hurricane,62
-OR,Fire,1
-OR,Coastal Storm,36
-MD,Hurricane,24
-DE,Hurricane,3
-WV,Severe Storm(s),6
-WV,Hurricane,55
-MS,Hurricane,135
-MA,Severe Storm(s),12
-MA,Hurricane,14
-MA,Snow,14
-TN,Hurricane,95
-GA,Hurricane,159
-NM,Hurricane,33
-NC,Hurricane,147
-AZ,Severe Storm(s),20
-AZ,Fire,8
-AZ,Hurricane,15
-FL,Hurricane,122
-ME,Severe Storm(s),13
-ME,Hurricane,15
-ME,Snow,27
-NV,Severe Storm(s),2
-NV,Fire,6
-NV,Hurricane,17
-NV,Snow,31
-KS,Severe Storm(s),46
-KS,Hurricane,105
-OH,Severe Storm(s),62
-OH,Hurricane,88
-OH,Snow,26
-AK,Severe Storm(s),5
-PA,Severe Storm(s),11
-PA,Hurricane,67
-VA,Hurricane,134
-MP,Typhoon,3
-SC,Hurricane,46
-MO,Hurricane,115
-IL,Hurricane,102
-IL,Snow,16
-MI,Hurricane,83
-IA,Hurricane,99
-ND,Severe Storm(s),29
-ND,Coastal Storm,53
-ND,Snow,21
+,Chemical,Coastal Storm,Dam/Levee Break,Drought,Earthquake,Fire,Fishing Losses,Flood,Freezing,Human Cause,Hurricane,Mud/Landslide,Other,Severe Ice Storm,Severe Storm(s),Snow,Terrorist,Tornado,Toxic Substances,Tsunami,Typhoon,Volcano,state
+0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,WY
+1,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,MT
+2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SD
+3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,ME
+4,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,OK
+5,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,CO
+6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,NJ
+7,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,KY
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,IA
+9,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,AZ
+10,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,WI
+11,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,3,0,0,0,0,0,0,NH
+12,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NV
+13,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,MI
+14,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,OR
+15,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,UT
+16,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,CA
+17,0,0,0,0,0,0,0,3,0,0,8,0,0,0,0,0,0,0,0,0,0,1,HI
+18,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ID
+19,0,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,IN
+20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,CT
+21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,31,0,0,0,0,0,0,NE
+22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,VT
+23,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,MN
+24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,MP
+25,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NM
+26,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,MS
+27,0,0,0,0,0,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,TX
+28,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,MD
+29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,KS
+30,0,0,0,0,0,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,SC
+31,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,MA
+32,0,0,0,0,0,11,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,WA
+33,0,0,0,0,0,0,0,0,0,0,8,0,0,0,4,0,0,0,0,0,0,0,AL
+34,0,0,0,0,0,0,0,0,0,0,0,21,0,0,7,0,0,0,0,0,0,0,WV
+35,0,0,0,0,0,0,0,0,0,0,109,0,0,0,3,0,0,0,0,0,0,0,NC
+36,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,OH
+37,0,0,0,0,0,0,0,0,0,0,134,0,0,0,0,0,0,0,0,0,0,0,VA
+38,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,AK
+39,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NY
+40,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,AS
